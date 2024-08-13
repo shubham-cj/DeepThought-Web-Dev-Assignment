@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 1440px;
+    height: 1805px;
+    margin: 0 auto;
+}
+
+.navbar { 
+    width: 1440px;
+    height: 90px;
+    background: #F0F0F0;
+    display: flex;
+    align-items: center;
+    padding: 0 83px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px rgb(143, 143, 143);    
+}
+
+.logo {
+    width: 311px;
+    height: 49px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button-bg {
+    width: 30px;
+    height: 32.37px;
+    background: #3683F0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn-logo {
+    width: 20px;
+    height: 18.34px;
+}
+
+.Notification-container {
+    position: relative;
+}
+
+.Notification-dot {
+    position: absolute;
+    top: 8px;
+    left: 18px;
+}
+
+.three-dot-menue {
+    width: 30px;
+    height: 32.37px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.journey-board {
+    width: 132px;
+    height: 742px;
+    border-radius: 0 0 20px 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgb(143, 143, 143);
+}
+
+.journey-board-toggel {
+
+}
+
+.journey-board-content {
+
+}
